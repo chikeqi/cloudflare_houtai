@@ -194,8 +194,8 @@ async function handleAdmin(request, kv) {
     return new Response(`<!DOCTYPE html>
 <html lang="zh-CN">
 <head><meta charset="UTF-8"><title>管理后台</title>
-<link href="https://unpkg.com/quill@1.3.7/dist/quill.snow.css" rel="stylesheet">
-<script src="https://unpkg.com/quill@1.3.7/dist/quill.js"></script>
+<link href="https://cdn.staticfile.org/quill/1.3.6/quill.snow.css" rel="stylesheet">
+<script src="https://cdn.staticfile.org/quill/1.3.6/quill.js"></script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:system-ui;background:#f0f2f5;padding:20px}
